@@ -1,0 +1,33 @@
+.section1 {
+  background: linear-gradient(rgba(8, 8, 8, 0.689), rgba(0, 0, 0, 0.561)),
+    url("Images/banner.jpg");
+  background-size: cover;
+  height: 90vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.nav1 h1 {
+  color: white;
+}
+
+.nav2 {
+  color: white;
+}
+
+.nav2 ul {
+  display: flex;
+  gap: 10vh;
+  font-size: 20px;
+  padding-top: 1.5vh;
+}
+
+.nav3 {
+  display: flex;
+  gap: 2vh;
+}
