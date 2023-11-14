@@ -128,3 +128,36 @@
   background: #3498db;
   margin: 0 10px;
 }
+
+.section3 {
+  margin-top: 6vh;
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  width: 60%;
+  gap: 5vh;
+}
+
+.section3 h2 {
+  font-weight: 600;
+  margin-top: 14vh;
+}
+.section3 p {
+  font-size: 2vh;
+  color: black;
+  margin-top: 5vh;
+}
+.btn {
+  margin-top: 2vh;
+}
+.exceptional-button2 {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px 30px 15px 15px;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(45deg, #9ca0a3, #353636);
+  transition: background 0.3s ease-in-out;
+}
