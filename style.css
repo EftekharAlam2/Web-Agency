@@ -133,8 +133,8 @@
   margin-top: 6vh;
   display: flex;
   justify-content: center;
-  margin-left: 20%;
-  width: 60%;
+  margin-left: 10%;
+  width: 80%;
   gap: 5vh;
 }
 
@@ -151,8 +151,8 @@
   margin-top: 2vh;
 }
 .exceptional-button2 {
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
   padding: 10px 20px;
   border: none;
   border-radius: 5px 30px 15px 15px;
@@ -160,4 +160,41 @@
   color: #fff;
   background: linear-gradient(45deg, #9ca0a3, #353636);
   transition: background 0.3s ease-in-out;
+}
+
+.section4 {
+  margin-top: 8vh;
+  margin-left: 10%;
+  width: 80%;
+}
+.section4 h2 {
+  font-weight: 600;
+}
+.section4 p {
+  font-size: 2vh;
+  color: black;
+  margin-top: 1vh;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 2vh;
+}
+.image-grid Img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.image-item-1 {
+  grid-column: span 7;
+}
+.image-item-2 {
+  grid-column: span 5;
+}
+.image-item-3 {
+  grid-column: span 5;
+}
+.image-item-4 {
+  grid-column: span 7;
 }
